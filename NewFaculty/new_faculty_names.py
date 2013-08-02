@@ -5,4 +5,4 @@ departments = ['Classics', 'English', 'Philosophy', 'Religion']
 for row in listicle:
 	for department in departments:
 		if department in row:
-            print row[0]
+                    print row[0]
