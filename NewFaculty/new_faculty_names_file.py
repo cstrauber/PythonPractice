@@ -6,5 +6,3 @@ for row in listicle:
 	for department in departments:
 		if department in row:
 			print row[0] + ' ' + row[1] + ', ' + row[2]
-file.write('new_faculty_names_list.txt', 'w')
-file.close
