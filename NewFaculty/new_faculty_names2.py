@@ -1,3 +1,4 @@
+#print a list of names in my departments
 import csv
 f = open('new_faculty.csv', 'rb')
 listicle = csv.reader(f)
@@ -6,5 +7,4 @@ for row in listicle:
 	for department in departments:
 		if department in row:
 			print row[0] + ' ' + row[1] + ', ' + row[2]
-file.write('new_faculty_names_list.txt', 'w')
-file.close
+
