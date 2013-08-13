@@ -1,6 +1,6 @@
 #print a list of names in my departments
 import csv
-f = open('new_faculty.csv', 'rb')
+f = open('NewFaculty/new_faculty.csv', 'rb')
 listicle = csv.reader(f)
 departments = ['Classics', 'English', 'Philosophy', 'Religion']
 for row in listicle:

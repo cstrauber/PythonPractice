@@ -1,0 +1,1 @@
+<open file 'NewFaculty/mynewfaculty.txt', mode 'a' at 0x7f216ebcaae0>
